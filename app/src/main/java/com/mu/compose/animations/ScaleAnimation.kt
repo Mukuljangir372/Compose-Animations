@@ -42,6 +42,7 @@ fun ScaleAnimation() {
         label = ""
     )
 
+    // offset
     val pxToMove = with(LocalDensity.current) {
         100.dp.toPx().roundToInt()
     }
